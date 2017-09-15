@@ -12,7 +12,7 @@ from matplotlib import pyplot as plt
 x = [1,2,3,4,5]
 y = tuple(map(lambda i: i * 100 + 10,x))
 a = 1000
-b = 11
+b = -1000
 import time
 def f(x):
     return a * x + b
