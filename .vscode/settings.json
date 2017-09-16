@@ -1,3 +1,7 @@
 {
-    "python.linting.pylintEnabled": false
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--disable=C,R"
+    ],
+    "python.formatting.provider": "yapf"
 }
